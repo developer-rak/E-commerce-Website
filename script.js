@@ -6,6 +6,8 @@ if (bar) {
     bar.addEventListener('click', () => {
         navbar.classList.add('active');
     })
+}
+if (closeBtn) {
     closeBtn.addEventListener('click', () => {
         navbar.classList.remove('active');
     })
