@@ -634,3 +634,75 @@ footer a:hover {
         font-size: 14px;
     }
 }
+
+
+
+
+/* MEDIA QURY FOR MOBILE */
+@media (max-width: 477px) {
+    #header {
+        padding: 10px 30px;
+    }
+
+    #hero {
+        padding: 0 20px;
+        background-position: 60%;
+    }
+    #hero h2 {
+        color: #fff;
+        text-shadow: 0 0 4px rgba(0,0,0,0.5);
+    }
+
+    #feature {
+        justify-content: space-between;
+    }
+    #feature .fe-box {
+        width: 155px;
+        margin: 0 0 15px 0;
+    }
+
+    #product1 .pro {
+        width: 100%;
+        margin: 15px 5px;
+    }
+
+    #banner h2 {
+        font-size: 2rem;
+        padding: 10px 10px;
+        text-shadow: 0 0 2px rgba(0, 0, 0, 0.941);
+    }
+
+    #banner3 .banner-box {
+        flex-direction: column;
+        width: 100%;
+        height: 25vh;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    #banner3 .banner-box3 h2, 
+    #banner .banner-box3 h3 {
+        display: block;
+        flex-direction: column;
+        font-size: 2rem;
+        line-height: 30px;
+    }
+
+    #newsletter .form {
+        width: 100%;
+    }
+    #newsletter input {
+        width: 60%;
+    }
+
+    footer .footer {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    footer .logo {
+        margin-left: 65px;
+    }
+    footer .col {
+        align-items: center;
+    }
+}
