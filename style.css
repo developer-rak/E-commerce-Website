@@ -633,6 +633,9 @@ footer a:hover {
     #banner3 h3 {
         font-size: 14px;
     }
+    #newsletter .form {
+        width: 70%;
+    }
 }
 
 
