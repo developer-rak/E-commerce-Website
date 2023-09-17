@@ -705,6 +705,11 @@ footer a:hover {
     z-index: -1;
 }
 
+/* ABOUT PAGE */
+#page-header.about-header {
+    background-image: url(img/about/banner.png);
+}
+
 
 
 
