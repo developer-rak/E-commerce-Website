@@ -849,6 +849,23 @@ footer a:hover {
     color: #000;
 }
 
+/* CART PAGE */
+#cart table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+
+#cart table img {
+    width: 70px;
+}
+
+#cart table td:nth-child(1) {
+    width: 100px;
+    text-align: center;
+}
+
 
 
 
